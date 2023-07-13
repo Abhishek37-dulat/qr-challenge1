@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.0d9f0e7d.css",
-    "main.js": "/static/js/main.619404a5.js",
-    "index.html": "/index.html",
-    "main.0d9f0e7d.css.map": "/static/css/main.0d9f0e7d.css.map",
-    "main.619404a5.js.map": "/static/js/main.619404a5.js.map"
+    "main.css": "/qr-challenge1/static/css/main.0d9f0e7d.css",
+    "main.js": "/qr-challenge1/static/js/main.619404a5.js",
+    "index.html": "/qr-challenge1/index.html",
+    "main.0d9f0e7d.css.map": "/qr-challenge1/static/css/main.0d9f0e7d.css.map",
+    "main.619404a5.js.map": "/qr-challenge1/static/js/main.619404a5.js.map"
   },
   "entrypoints": [
     "static/css/main.0d9f0e7d.css",
