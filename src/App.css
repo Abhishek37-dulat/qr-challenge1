@@ -1,38 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  background-color: #d5e1ef;
+  width: 100%;
+  height: 100vh;
+  font-family: "Outfit", sans-serif;
 }
-
-.App-link {
-  color: #61dafb;
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #fff;
+  width: 350px;
+  height: 500px;
+  border-radius: 10px;
+  font-family: "Outfit", sans-serif;
 }
+.image {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 94%;
+  height: 60%;
+  margin-top: 3%;
+}
+.image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+.query {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 94%;
+  height: 37%;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  font-family: "Outfit", sans-serif;
 }
